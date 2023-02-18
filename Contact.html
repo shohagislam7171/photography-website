@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us | My Photography Website</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
+		h1 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: normal;
+		}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav li:last-child {
+			margin-right: 0;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+		h2 {
+			font-size: 20px;
+			font-weight: normal;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		form label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		form input,
+		form textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 5px;
+			background-color: #f0f0f0;
+			font-size: 16px;
+		}
+		form textarea {
+			height: 200px;
+		}
+		form button {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="Photography.html">Home</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="Service.html">Services</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Contact Us</h1>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			<button type="submit">Send Message</button>
+		</form>
+	</main>
+</body>
+</html>
